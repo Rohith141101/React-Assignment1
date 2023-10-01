@@ -99,15 +99,15 @@ function App() {
       {videos.map((video) => (
         <div key={video.id} className="video-card">
           <img src={video.thumbnailUrl} alt={video.title} />
-          <div className="video-info">
+            <div className="channel-info">
+              <img src={video.channelLogoUrl} alt={video.channelName} />
+              <p>{video.channelName}</p>
+            </div>
+            <div className="video-info">
             <h3>{video.title}</h3>
             <div className="stats">
               <p>{`${video.likes} Likes`}</p>
               <p>{`${video.views} Views`}</p>
-            </div>
-            <div className="channel-info">
-              <img src={video.channelLogoUrl} alt={video.channelName} />
-              <p>{video.channelName}</p>
             </div>
           </div>
         </div>
