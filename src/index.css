@@ -87,7 +87,7 @@ body{
 
 @media (max-width:375px){
   .channel-info{
-    bottom: 212px;
+    bottom: 210px;
   }
   .video-card{
     height: 350px;
