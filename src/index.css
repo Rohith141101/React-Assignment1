@@ -40,8 +40,6 @@ body{
   display: flex;
   align-items: center;
   margin-top: 5px;
-  position: relative;
-  bottom: 332px;
   background-color: #ffff;
   width: 250px;
   padding: 4px 5px; 
