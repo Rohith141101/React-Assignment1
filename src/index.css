@@ -38,6 +38,7 @@ body{
   display: flex;
   align-items: center;
   margin-top: 5px;
+  margin-bottom:5px;
   margin-left: 5px;
   background-color: #ffff;
   width: 250px;
