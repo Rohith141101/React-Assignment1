@@ -86,4 +86,8 @@ body{
   .video-card{
     height: 370px;
   }
+  .channel-info img{
+    width:20px;
+    height:20px;
+  }
 }
